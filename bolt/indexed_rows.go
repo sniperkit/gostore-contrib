@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package bolt
 
 import (
 	"encoding/json"
 	"fmt"
+	"sync"
+
 	"github.com/blevesearch/bleve"
 	"github.com/osiloke/gostore"
-	"sync"
-	// "github.com/osiloke/gostore-contrib/indexer"
+	// "github.com/sniperkit/snk.fork.gostore-contrib/indexer"
 )
 
 type NextItem struct {

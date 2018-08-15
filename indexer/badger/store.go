@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // MIT LICENSE
 //
 //  Copyright (c) 2017 Fabrice Aneche

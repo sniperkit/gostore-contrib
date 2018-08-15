@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package bolt
 
 //TODO: Extract methods into functions
@@ -16,8 +21,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/mgutz/logxi/v1"
 	"github.com/osiloke/gostore"
-	"github.com/osiloke/gostore-contrib/common"
-	"github.com/osiloke/gostore-contrib/indexer"
+
+	"github.com/sniperkit/snk.fork.gostore-contrib/common"
+	"github.com/sniperkit/snk.fork.gostore-contrib/indexer"
 )
 
 var logger = log.New("gostore-contrib.bolt")

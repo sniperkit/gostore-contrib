@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package bolt
 
 import (
 	"encoding/json"
-	"github.com/osiloke/gostore"
 	"sync"
+
+	"github.com/osiloke/gostore"
 )
 
 func newBoltRows(rows [][][]byte) BoltRows {

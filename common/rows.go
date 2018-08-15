@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package common
 
 import (
 	"context"
 	"errors"
-	"github.com/osiloke/gostore"
 	"time"
+
+	"github.com/osiloke/gostore"
 )
 
 var ErrTimeout = errors.New("timeout")

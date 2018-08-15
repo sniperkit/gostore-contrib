@@ -1,14 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package indexer
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
+	"strings"
 
-	"encoding/json"
 	"github.com/blevesearch/bleve"
 	"github.com/blevesearch/bleve/mapping"
 	"github.com/mgutz/logxi/v1"
-	"strings"
 )
 
 func ReIndex(provider ProviderStore, index *Indexer) error {

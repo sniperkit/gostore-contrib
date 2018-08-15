@@ -1,7 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package badger
 
 import (
 	"encoding/json"
+
 	"github.com/osiloke/gostore"
 )
 

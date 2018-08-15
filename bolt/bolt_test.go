@@ -1,14 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package bolt_test
 
 import (
 	"fmt"
-	"github.com/osiloke/gostore"
-	. "github.com/osiloke/gostore-contrib/bolt"
-	. "github.com/smartystreets/goconvey/convey"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/osiloke/gostore"
+	. "github.com/smartystreets/goconvey/convey"
+	"github.com/stretchr/testify/assert"
+
+	. "github.com/sniperkit/snk.fork.gostore-contrib/bolt"
 )
 
 func tempPath() string {

@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package kv
 
 import (
 	"errors"
+	"os"
+
 	"github.com/cznic/kv"
 	"github.com/osiloke/gostore"
-	"os"
 )
 
 type Kv struct {

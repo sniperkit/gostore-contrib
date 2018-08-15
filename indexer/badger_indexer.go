@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package indexer
 
 import (
@@ -5,10 +10,10 @@ import (
 
 	"github.com/blevesearch/bleve"
 	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/osiloke/gostore-contrib/indexer/badger"
-	_ "github.com/osiloke/gostore-contrib/indexer/badger"
-
 	"github.com/blevesearch/bleve/mapping"
+
+	"github.com/sniperkit/snk.fork.gostore-contrib/indexer/badger"
+	_ "github.com/sniperkit/snk.fork.gostore-contrib/indexer/badger"
 )
 
 // NewIndexer creates a new indexer

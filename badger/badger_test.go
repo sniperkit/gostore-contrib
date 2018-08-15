@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package badger
 
 import (
 	"github.com/osiloke/gostore"
-	// "github.com/osiloke/gostore-contrib/indexer"
-	"github.com/blevesearch/bleve/search"
-	"github.com/stretchr/testify/assert"
+	// "github.com/sniperkit/snk.fork.gostore-contrib/indexer"
 	"os"
 	"path/filepath"
 	"reflect"
 	"testing"
+
+	"github.com/blevesearch/bleve/search"
+	"github.com/stretchr/testify/assert"
 )
 
 var rootPath = "./.testdata"

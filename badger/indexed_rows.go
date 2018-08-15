@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package badger
 
 import (
@@ -7,7 +12,7 @@ import (
 
 	"github.com/blevesearch/bleve"
 	"github.com/osiloke/gostore"
-	// "github.com/osiloke/gostore-contrib/indexer"
+	// "github.com/sniperkit/snk.fork.gostore-contrib/indexer"
 )
 
 type NextItem struct {

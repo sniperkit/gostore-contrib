@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package badger
 
 //TODO: Extract methods into functions
@@ -14,8 +19,9 @@ import (
 	"github.com/gosexy/to"
 	"github.com/mgutz/logxi/v1"
 	"github.com/osiloke/gostore"
-	"github.com/osiloke/gostore-contrib/common"
-	"github.com/osiloke/gostore-contrib/indexer"
+
+	"github.com/sniperkit/snk.fork.gostore-contrib/common"
+	"github.com/sniperkit/snk.fork.gostore-contrib/indexer"
 )
 
 var logger = log.New("gostore-contrib.badger")
